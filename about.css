@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+ background-image: url('https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/Anindo_The_PRO/phpl6wYbs.gif');
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+   
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+section {
+    padding: 40px 0;
+}
+
+h2 {
+    font-size: 1cm;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #fff;
+}
+p{
+    font-size:2em ;
+    color:#29f730
+}
+
+ul {
+    list-style-type: none;
+    color: #29f730;
+}
+
+ul li {
+    font-size: 2em;
+    margin: 10px 0;
+}
+
+.projects .project {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.projects .project h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.projects .project p {
+    font-size: 1.1em;
+}
+
+.contact ul {
+    margin-top: 20px;
+}
+
+.contact ul li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.contact a {
+    color: #333;
+    text-decoration: none;
+    color: #fff;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1em;
+}
+
+/* Smooth scroll behavior */
+html {
+    scroll-behavior: smooth;
+}
